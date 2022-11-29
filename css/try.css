@@ -444,8 +444,8 @@ footer {
 
 .col1 {
     flex: 2;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
     position: relative;
     padding: 0;
     border: none;
@@ -501,11 +501,12 @@ footer {
     border-bottom: 6px solid #ec5252;
 }
 
-.left-contlist {
+/* .left-contlist {
     display: flex;
     align-items: center;
     flex-basis: 48%;
-}
+    color: white;
+} */
 
 .right-contlist {
     flex-basis: 48%;
@@ -635,11 +636,118 @@ footer {
     align-items: center;
     padding-top: 1.6rem;
     padding-bottom: 1.6rem;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+hr{
+    height: 0.1px;
+}
+.second-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-wrap: wrap;
+
+}
+.images{
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.ud{
+    color: white;
+}
+a.udli:link {color:purple;text-decoration:none;}
+/* a.udli:visited {color:#0000ff;text-decoration:none;} */
+a.udli:hover {text-decoration:underline;}
+#ude{
+    height: 35px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    /* border-bottom-color: white; */
+    /* border: 2px; */
 }
 .online{
-    padding-top: 0.8rem;
+    padding-top: 60px;
+    position: absolute;
+
+
     /* font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
     font-weight: 400;
     line-height: 1.4;
     font-size: 1.6rem; */
+}
+.main-div{
+    display: flex;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+.first-part{
+
+}
+.learn{
+    display: flex;
+    /* padding-top:none; */
+    /* flex-wrap: wrap; */
+    justify-content: flex-end;
+    padding-top: 0.1rem;
+}
+.lecture{
+    
+    /* flex: 1; */
+    /* padding: 1.6rem; */
+    /* min-width: 1px; */
+    /* display: block; */
+    /* width: 100%; */
+    /* padding-top: 2.5rem; */
+    margin-top: 210px;
+    margin-left: 0px;
+    /* flex-direction: row; */
+    position: absolute;
+    /* justify-content: flex-start; */
+    /* justify-content: space-between; */
+
+}
+.foot{
+    background-color: black;
+    color: white;
+    /* width: 80%; */
+    height: 400px;
+    margin: none;
+    justify-content: center;
+
+}
+.fi-lec{
+
+}
+.left-contlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 180px;
+    width: 500px;
+    /* padding-bottom: 180px; */
+    padding-bottom: 2.5em;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 6.4rem 0 3.2rem;
+    position: absolute;
+    /* display: flex; */
+    /* align-items: center; */
+    flex-basis: 48%;
+    color: white;
+    /* background-color: black; */
 }
